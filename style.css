@@ -18,6 +18,10 @@ header {
 
   /* adiciona o espaço em todas as 4 direçoes */
   padding: 48px;
+
+  position: fixed;
+  width: 100%;
+  background-color: #09090a;
 }
 
 button {
@@ -42,7 +46,8 @@ button {
 
 #form-habits {
   display: flex;
-  padding: 0 48px;
+  padding: 182px 48px 48px;
+  width: fit-content;
 }
 
 .habits {
@@ -103,4 +108,11 @@ input {
 input:checked {
   background: #8b5cf6;
   border: 2px solid #a78bfa;
+}
+
+/* responsividade - tira o texto do botao em dispositivos com menos de 570px */
+@media (max-width: 570px) {
+  button div {
+    display: none;
+  }
 }
