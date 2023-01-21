@@ -1,9 +1,11 @@
+/* todo documento */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* fundo e cor das letras */
 body {
   background-color: #09090a;
   color: white;
@@ -19,13 +21,14 @@ header {
   /* adiciona o espaço em todas as 4 direçoes */
   padding: 48px;
 
+  /* mantem o cabeçalho sempre fixo se estendendo por todo site */
   position: fixed;
   width: 100%;
   background-color: #09090a;
 }
 
 button {
-  /* conteudo dentro do botão*/
+  /* design do botão*/
   padding: 16px 24px;
   background-color: transparent;
   color: #fff;
@@ -44,12 +47,14 @@ button {
   line-height: 125%;
 }
 
+/* id do formulario */
 #form-habits {
   display: flex;
   padding: 182px 48px 48px;
   width: fit-content;
 }
 
+/* classe do posicionamento dos habitos */
 .habits {
   margin-top: 49px;
   display: flex;
@@ -58,29 +63,36 @@ button {
   gap: 24px;
 }
 
+/* classe do design dos habitos */
 .habit {
+  /* div do icone*/
   width: 64px;
   height: 64px;
 
+  /* tamanho do icone */
   font-size: 32px;
 
+  /* posição dentro da div */
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
+/* posição das checkboxes */
 .days {
   display: flex;
   gap: 48px;
   margin-left: 32px;
 }
 
+/* posição da data */
 .day {
   display: flex;
   gap: 24px;
   flex-direction: column;
 }
 
+/* design da data */
 .day div {
   margin-botton: 8px;
   font-family: "Roboto Mono";
@@ -92,7 +104,9 @@ button {
   text-align: center;
 }
 
+/* design checkbox */
 input {
+  /* anula o design padrão dado pelo navegador */
   appearance: none;
   -webkit-appearance: none;
 
@@ -104,6 +118,7 @@ input {
 
   background: #18181b;
 }
+/* design da checkbox marcada */
 /* pseudo-selector */
 input:checked {
   background: #8b5cf6;

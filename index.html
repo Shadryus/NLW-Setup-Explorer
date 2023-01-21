@@ -1,8 +1,11 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
+    <!-- conexão com o Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- conexão com as fontes Inter e Roboto Mono do Google Fonts -->
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Roboto+Mono:wght@700&display=swap"
       rel="stylesheet"
@@ -13,20 +16,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Habits</title>
 
+    <!-- conexão com a folha de estilos -->
     <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
+    <!-- parte superior do app -->
     <header>
+      <!-- logotipo -->
       <img src="./assets/logo.svg" alt="logomarca do aplicativo Habits" />
 
+      <!-- botão de registro de data -->
       <button>
         <img src="./assets/plus.svg" alt="icone sinal de mais roxo" />
         <div>Registrar meu dia</div>
       </button>
     </header>
 
+    <!-- formulario -->
     <form id="form-habits">
+      <!-- labels dos habitos -->
       <div class="habits">
         <div class="habit" data-name="run">🏃‍♂️</div>
         <div class="habit" data-name="water">💧</div>
@@ -35,10 +44,13 @@
         <div class="habit" data-name="takePills">💊</div>
       </div>
 
+      <!-- checkboxes dos dias -->
       <div class="days"></div>
     </form>
-
+    <!-- adiciona os scripts da biblioteca da rocketseat -->
     <script src="https://cdn.jsdelivr.net/gh/maykbrito/libs/NLWSetup/source/NLWSetup.js"></script>
+
+    <!-- adiciona os scripts do meu arquivo script.js -->
     <script src="./script.js"></script>
   </body>
 </html>
