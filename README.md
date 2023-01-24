@@ -7,7 +7,8 @@ Desenvolvimento de um app para controle de habitos para a [NLW Setup Explorer](h
 <!-- Menu de navegação -->
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto-finalizado">Projeto Finalizado</a>&nbsp;&nbsp;&nbsp;
 </p>
 
 <!-- Tecnologias usadas, badges da shields.io -->
@@ -25,5 +26,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/community/file/1195327109778210238). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
 ![](https://github.com/Shadryus/NLW-Setup-Explorer/blob/main/Img/prototipo.png)
 
+
+## ✨ Projeto Finalizado
+Foi uma experiencia muito gratificante esse projeto, com ele aprendi como criar um app através de um layout do Figma, melhorei meus conhecimentos de HTML e CSS e tive uma compreensão incrivel de quão poderoso é o JavaScript, podem acessar o projeto pelo [link](https://shadryus.github.io/NLW-Setup-Explorer/), obrigado a Rocketseat!
 
 Criado pela Rocketseat, saiba mais pelo [Discord](https://discord.gg/rocketseat) deles :heart:
