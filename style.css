@@ -7,9 +7,13 @@
 
 /* fundo e cor das letras */
 body {
+  background-image: url("./assets/bg.png");
   background-color: #09090a;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   color: white;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 header {
@@ -24,7 +28,7 @@ header {
   /* mantem o cabeçalho sempre fixo se estendendo por todo site */
   position: fixed;
   width: 100%;
-  background-color: #09090a;
+  /* background-color: #09090a; */
 }
 
 button {
