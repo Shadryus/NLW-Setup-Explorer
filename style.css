@@ -28,7 +28,7 @@ header {
   /* mantem o cabeçalho sempre fixo se estendendo por todo site */
   position: fixed;
   width: 100%;
-  /* background-color: #09090a; */
+  background-color: #09090a;
 }
 
 button {
