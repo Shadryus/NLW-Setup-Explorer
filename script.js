@@ -33,7 +33,7 @@ function add() {
   nlwSetup.addDay(today)
 }
 
-//função criada para salvar os dados através da chave nomeada NLWSetup@habits o JSON tranformado em string no localStorage
+//função criada para salvar os dados através da chave nomeada NLWSetup@habits o JSON transformado em string no localStorage
 function save() {
   localStorage.setItem("NLWSetup@habits", JSON.stringify(nlwSetup.data))
 }
